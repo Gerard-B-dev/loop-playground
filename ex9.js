@@ -11,5 +11,10 @@ let i=0;
 
 while(i<n) {
     console.log("Ejecutar!")
+    i++;
+
 }
+
+// Respuesta Gerard B --> Por defecto nos daba un bucle infinito porque en el código del while no teníamos el incremento i++
+// - Hemos añadido el incremento i++; y por tanto el bucle se ejecuta 10 veces
 

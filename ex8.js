@@ -10,7 +10,10 @@
 let veces = 5
 let i = 0
 
-while (i<=veces) {
+while (i<veces) {
     console.log("Ejecuto!")
     i++
 }
+
+// Respuesta Gerard B --> El bucle inicialmente se nos ppresenta commo (i <= 5), lo inicializamos desde 0 se ejecuta 6 veces
+// - Para que se ejecute 5 veces la condición ha de ser --> (i < 5)

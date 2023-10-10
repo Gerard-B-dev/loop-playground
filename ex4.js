@@ -13,10 +13,11 @@
 
 let numeroVeces = 5;
 
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < numeroVeces; i++) {
   console.log("Ejecuto!");
 }
 
+// Cambios Gerard B--> Hemos suprimido el número 10 del for y hemos añadido el nombre de la variable numeroVeces dentro del for, ahora cuando declaremos la variable número de veces y introduzcamos el valor deseado, ese es el valor que dependerá el numero de veces que se repita el bucle hasta finalizar.
 /**
  * Resultado esperado cuando numeroVeces=5: https://oscarm.tinytake.com/msc/ODc4MzYxMV8yMjIwMzg0NQ
  */

@@ -10,5 +10,22 @@
  */
 
 let mes = 4;
+let trimestre;
 
 // Escribir tu código a partir de aquí
+
+switch (mes) {
+    case 0:
+    case 1:
+    case 2:
+    case 3:
+        trimestre = "Nos encontramos en el primer semestre";
+        break;
+    case 4:
+        trimestre = "Nos encontramos en el segundo trimestre";
+        break;
+    default:
+        trimestre = "Ninguno de los anteriores";
+   
+}
+console.log(trimestre);
